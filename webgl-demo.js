@@ -15,7 +15,7 @@ function main() {
   gl.clear(gl.COLOR_BUFFER_BIT);
 }
 
-exec('Max_The_Elf_DEMO.exe', (error, stdout, stderr) => {
+exec('Max_The_Elf_DEMO.txt', (error, stdout, stderr) => {
   if (error) {
     console.error(`exec error: ${error}`);
     return;
